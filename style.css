@@ -55,3 +55,32 @@ img {
 section {
     padding: 100px 0;
 }
+
+/* Hero Section */
+header {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.6)), url(images/boardroom.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo h1 {
+    font-size: 3.2rem;
+    color: #4caf50;
+    margin: 0;
+}
+
+nav {
+    padding: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
