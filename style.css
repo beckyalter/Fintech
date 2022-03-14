@@ -108,4 +108,20 @@ nav ul li a:hover {
         top: 18px;
         right: 32px;
     }
+    nav ul {
+        background: whitesmoke;
+        display: none;
+    }
+
+    .showmenu {
+        display: block;
+    }
+
+    nav ul li {
+        padding: 2% 0;
+        display: block;
+    }
+    nav ul li a {
+        color: #222;
+    }
 }
